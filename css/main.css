@@ -62,6 +62,12 @@ footer i {
 	display: none !important;;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	#masthead{
+		background-image: url('../img/water.mobile.jpg');
+		animation: slide 200s linear infinite alternate;
+		-webkit-animation: slide 200s linear infinite alternate;
+		border-bottom: 3px solid #eee;
+	}
     #masthead h1 {
 		font-size: 2.5em; 
 		margin: 0 auto;
