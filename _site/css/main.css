@@ -1,0 +1,155 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	text-rendering: optimizelegibility;
+}
+.container h1, h2
+{
+	font-family: 'Pacifico', cursive;
+	color: #58D3F7; //#428BCA;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .75);
+}
+.service-box{	
+	margin-bottom: 9px;
+	padding: 9px!important;
+	border: 2px solid #eee!important;
+	border-radius: 15px;
+	-moz-box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+	-ms-box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+	box-shadow: 0px 5px 25px rgba(0,0,0,0.1);
+}
+.service-box h3
+{
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+#services .grey{
+	background-color: #eee;
+	padding: .5em 0 .5em 0;
+}
+#services h2 {
+	color: #58D3F7; //#428BCA;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, .75);
+}
+#masthead{
+	background-image: url('../img/water_retina.jpg');
+	//background-repeat: repeat-y;
+	animation: slide 60s linear infinite alternate;
+	-webkit-animation: slide 200s linear infinite alternate;
+	border-bottom: 10px solid #eee;
+}
+@keyframes slide{
+    from { background-position: left 0; }
+    to { background-position: left -1700px; }
+}
+@-webkit-keyframes slide {
+    from { background-position: left 0; }
+    to { background-position: left -1700px; }
+}
+
+#masthead h1 {
+	font-size: 5em; 
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	padding: .5em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, .75);
+}
+footer i {
+	display: none !important;;
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+    #masthead h1 {
+		font-size: 2.5em; 
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		//padding: .5em;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, .75);
+	}	
+	.who_we_are{
+		padding:.5em;
+	}
+	footer a span {
+		display: none;
+	}		
+}
+.logotype{
+	font-family: 'Pacifico', cursive;
+}
+.who_we_are{
+	margin: 0 auto; 
+}
+@media (min-width: 1400px)
+{
+	.who_we_are {
+	width: 1170px;
+	}
+}
+@media (min-width : 1224px)
+	#masthead h1 {
+		font-size: 3em; 
+		margin: 0 auto;
+		text-align: center;
+		color: white;
+		padding: 1em;
+		text-shadow: 2px 2px 3px rgba(0, 0, 0, .75);
+	}	
+}
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle img {
+    border-radius: 50%;
+    display: block;
+}
+ul.contact li {
+position: relative;
+display: inline-block;
+margin: 0 0.25em 0 0.25em;
+top: 0;
+-moz-transition: top .15s ease-in-out;
+-webkit-transition: top .15s ease-in-out;
+-o-transition: top .15s ease-in-out;
+-ms-transition: top .15s ease-in-out;
+transition: top .15s ease-in-out;
+}
+ul.contact li a {
+display: block;
+position: relative;
+width: 48px;
+height: 48px;
+border-radius: 6px;
+outline: 0;
+-moz-transition: background-color .2s ease-in-out;
+-webkit-transition: background-color .2s ease-in-out;
+-o-transition: background-color .2s ease-in-out;
+-ms-transition: background-color .2s ease-in-out;
+transition: background-color .2s ease-in-out;
+background: #c1cac5;
+text-align: center;
+}
+.fa {
+text-decoration: none;
+}
+			ul.contact li:hover  .fa-facebook-square		{ color: #3C5A98; }
+			ul.contact li:hover a.fa-twitter		{ background-color: #2DAAE4; }
+			ul.contact li:hover a.fa-rss			{ background-color: #F2600B; }
+			ul.contact li:hover a.fa-dribbble		{ background-color: #C4376B; }
+			ul.contact li:hover a.fa-linkedin		{ background-color: #006599; }
+			ul.contact li:hover a.fa-tumblr		{ background-color: #31516A; }
+			ul.contact li:hover .fa-google-plus-square	        { color: #DA2713; }
+
+			ul.contact li:hover
+			{
+				top: -5px;
+			}
+
+			ul.contact li:active
+			{
+				top: 0;
+			}
