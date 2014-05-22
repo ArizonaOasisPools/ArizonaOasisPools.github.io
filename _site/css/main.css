@@ -57,9 +57,8 @@ html, html a {
 	padding: .5em;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, .75);
 }
-
 footer i {
-	display: none !important;;
+	display: none !important;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 	#masthead{
@@ -81,6 +80,9 @@ footer i {
 	footer a span {
 		display: none;
 	}		
+	footer i {
+		display: block !important;
+	}
 }
 .logotype{
 	font-family: 'Pacifico', cursive;
